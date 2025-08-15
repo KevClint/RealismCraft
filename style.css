@@ -21,7 +21,9 @@ html {
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 body {
-  background-image: url(assets/bg3-min.webp);
+  background-image: 
+    linear-gradient(to bottom, #8B4513, #228B22),
+    url(assets/bg3-min.webp);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
